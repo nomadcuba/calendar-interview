@@ -54,7 +54,7 @@ def meetingPlanning(duration):
                 meet.append(InToTime(start))
                 meet.append(InToTime(end))
                 listValidMeet.append(meet)
-                break
+                
             j+=1
         i+=1    
     print(listValidMeet)
