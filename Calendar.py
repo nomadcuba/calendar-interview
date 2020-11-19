@@ -15,9 +15,9 @@ def TimeToInt(time):
     result = int(h) * 60 + int(m)
     return result
 # Helper function to convert integer format to hour
-def InToTime(minutes): 
-    hour, min = divmod(minutes, 60) 
-    return "%d:%02d" % (hour, min) 
+def InToTime(minutes):
+    hour, min = divmod(minutes, 60)
+    return "%d:%02d" % (hour, min)
 
 # Helper function to find valid time lapse for meeting of both person
 def validMeetDayLapse():
