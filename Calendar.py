@@ -69,12 +69,11 @@ def meetingPlanning(duration):
 	    # Checking the "distance" of the intersection is equal or bigger than the duration
             if end - start >= duration:
                 # Creating de meet time lapse available
-		meet = []
+                meet = []
                 meet.append(InToTime(start))
                 meet.append(InToTime(end))
 		# Appending to the list of availables time to meet for both persons
                 listValidMeet.append(meet)
-                
             j+=1
         i+=1
     # Printing the result
